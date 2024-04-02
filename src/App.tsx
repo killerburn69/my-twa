@@ -20,7 +20,7 @@ function App() {
       messages: [
           {
               address: address, // destination address
-              amount: String(100000000000000) //Toncoin in nanotons
+              amount: String(amount*100000000) //Toncoin in nanotons
           }
       ]
     }
